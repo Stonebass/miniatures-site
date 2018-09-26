@@ -1,0 +1,1 @@
+Copy-Item -Path ($PSScriptRoot+"\ClientApp\build\*") -Destination ($PSScriptRoot+"\wwwroot") -Recurse -force
