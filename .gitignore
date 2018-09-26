@@ -31,6 +31,8 @@ msbuild.wrn
 # Visual Studio 2015
 .vs/
 
+/wwwroot
+
 # Client
 
 # dependencies
