@@ -6,6 +6,13 @@ cd..
 # Copy frontend to dotnet app
 Copy-Item -Path ($PSScriptRoot + "\ClientApp\build\*") -Destination ($PSScriptRoot + "\wwwroot") -Recurse -force
 
+ls
+cd ./wwwroot/static/js
+ls
+cd..
+cd..
+cd..
+
 Get-ChildItem ($PSScriptRoot + "\wwwroot\static\js\*.js") | Rename-Item -NewName "main.js"
 Get-ChildItem ($PSScriptRoot + "\wwwroot\static\js\*.js.map") | Rename-Item -NewName "main.js.map"
 
