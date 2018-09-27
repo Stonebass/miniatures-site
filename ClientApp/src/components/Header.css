@@ -1,0 +1,10 @@
+.header {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  height: 100px;
+  top: 0;
+  position: absolute;
+  right: 0;
+  left: 0;
+}
