@@ -4,6 +4,10 @@ npm run build
 cd..
 
 # Copy frontend to dotnet app
+if (-Not (Test-Path ($PSScriptRoot + "\wwwroot")))
+{
+     md -path ($PSScriptRoot + "\wwwroot")
+}
 Copy-Item -Path ($PSScriptRoot + "\ClientApp\build\*") -Destination ($PSScriptRoot + "\wwwroot") -Recurse -force
 
 
