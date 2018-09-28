@@ -1,0 +1,17 @@
+.content {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 15%;
+  bottom: 100px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.content-wrapper {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
+  box-sizing: content-box; /* use this if don't want any window scrollbars and use an inner element for scrolling*/
+}

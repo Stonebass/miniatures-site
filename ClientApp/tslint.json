@@ -1,4 +1,7 @@
 {
+  "rules": {
+    "interface-over-type-literal": false
+  },
   "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
   "linterOptions": {
     "exclude": [
