@@ -9,3 +9,8 @@
   bottom: 100px;
   overflow: hidden; /* use this if don't want any window scrollbars and use an inner element for scrolling*/
 }
+body {
+  background-position: top;
+  background-size: cover;
+  /* box-shadow: inset 0 0 1000px 60px black; */
+}

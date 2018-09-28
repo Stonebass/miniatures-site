@@ -1,11 +1,13 @@
 import * as React from "react";
 import "./Header.css";
+import Logo from "./Logo";
 
 class Header extends React.Component {
   public render() {
     return (
       <div className="header">
-        <h1>Stonebass Miniatures</h1>
+        {" "}
+        <Logo />{" "}
       </div>
     );
   }
