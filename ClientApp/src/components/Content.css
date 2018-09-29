@@ -55,13 +55,8 @@
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-/* @media screen and (max-width: 1366px) {
+@media screen and (max-width: 1366px) {
   .content .landing-content {
-    left: 50%;
+    top: 10%;
   }
-
-  content .landing-content button {
-    width: 200px;
-    height: 64px;
-  }
-} */
+}

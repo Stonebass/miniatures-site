@@ -12,9 +12,8 @@
 
 .footer .icon {
   margin-left: 20px;
-  margin-top: 20px;
+  margin-top: 1.1%;
   display: inline-block;
-  vertical-align: middle;
   background: rgba(255, 255, 255, 0.2);
   width: 105px;
   height: 50px;
@@ -22,7 +21,14 @@
   border-radius: 25px;
 }
 
+@media screen and (max-width: 1366px) {
+  .footer .icon {
+    margin-top: 3%;
+  }
+}
+
 .footer .icon img {
   width: 50px;
   height: 50px;
+  vertical-align: middle;
 }
