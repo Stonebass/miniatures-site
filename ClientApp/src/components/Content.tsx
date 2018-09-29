@@ -36,8 +36,13 @@ class Content extends React.Component<Props, State> {
         <div className="content">
           <div className="content-wrapper">
             <div className="landing-content">
+              <div className="message">
+                Welcome to the home of my little collection of Warhammer
+                miniatures. The page is still under development feel free to
+                look around during construction.
+              </div>
               <button onClick={() => this.setState({ showImageFlow: true })}>
-                Show image flow
+                Show minis!
               </button>
             </div>
           </div>
