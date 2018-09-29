@@ -1,6 +1,7 @@
 {
   "rules": {
-    "interface-over-type-literal": false
+    "interface-over-type-literal": false,
+    "jsx-no-lambda": false
   },
   "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
   "linterOptions": {

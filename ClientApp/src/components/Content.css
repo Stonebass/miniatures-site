@@ -1,8 +1,8 @@
 .content {
   position: absolute;
   right: 0;
-  left: 0;
-  top: 15%;
+  left: 15px;
+  top: 20%;
   bottom: 100px;
   width: 100%;
   overflow: hidden;
@@ -14,4 +14,34 @@
   overflow-y: scroll;
   padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
   box-sizing: content-box; /* use this if don't want any window scrollbars and use an inner element for scrolling*/
+}
+
+.content .landing-content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%);
+}
+
+.content .landing-content button {
+  border: white;
+  background: rgba(255, 255, 255, 0.3);
+  width: 350px;
+  height: 75px;
+  font-family: "Notable", sans-serif;
+  font-size: 20px;
+
+  color: black;
+  border: 2px solid #e7e7e7;
+  padding: 16px 32px;
+  text-align: center;
+
+  text-decoration: none;
+
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.content .landing-content button:hover {
+  background-color: rgba(255, 255, 255, 0.5);
 }
