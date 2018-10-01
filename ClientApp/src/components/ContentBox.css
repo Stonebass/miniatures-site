@@ -16,6 +16,7 @@
     padding: 20px;
     width: 80%;
     height: 70%;
+    min-height: 400px;
     margin: 4%;
   }
 }
